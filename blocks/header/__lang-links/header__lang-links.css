@@ -14,3 +14,10 @@
 .header__lang-links:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-links {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
